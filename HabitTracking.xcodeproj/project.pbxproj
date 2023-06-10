@@ -11,6 +11,10 @@
 		7C577C732A34D68200F8BF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C577C722A34D68200F8BF65 /* ContentView.swift */; };
 		7C577C752A34D68400F8BF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C577C742A34D68400F8BF65 /* Assets.xcassets */; };
 		7C577C782A34D68400F8BF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C577C772A34D68400F8BF65 /* Preview Assets.xcassets */; };
+		7C577C7F2A34DA7600F8BF65 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C577C7E2A34DA7600F8BF65 /* Activity.swift */; };
+		7C577C812A34DC7000F8BF65 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C577C802A34DC7000F8BF65 /* ActivitiesModel.swift */; };
+		7C577C832A34EEA900F8BF65 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C577C822A34EEA900F8BF65 /* AddActivityView.swift */; };
+		7C577C852A34F33800F8BF65 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C577C842A34F33800F8BF65 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7C577C722A34D68200F8BF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C577C742A34D68400F8BF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C577C772A34D68400F8BF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C577C7E2A34DA7600F8BF65 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		7C577C802A34DC7000F8BF65 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
+		7C577C822A34EEA900F8BF65 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		7C577C842A34F33800F8BF65 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				7C577C702A34D68200F8BF65 /* HabitTrackingApp.swift */,
 				7C577C722A34D68200F8BF65 /* ContentView.swift */,
+				7C577C842A34F33800F8BF65 /* ActivityView.swift */,
+				7C577C822A34EEA900F8BF65 /* AddActivityView.swift */,
+				7C577C7E2A34DA7600F8BF65 /* Activity.swift */,
+				7C577C802A34DC7000F8BF65 /* ActivitiesModel.swift */,
 				7C577C742A34D68400F8BF65 /* Assets.xcassets */,
 				7C577C762A34D68400F8BF65 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C577C7F2A34DA7600F8BF65 /* Activity.swift in Sources */,
 				7C577C732A34D68200F8BF65 /* ContentView.swift in Sources */,
+				7C577C812A34DC7000F8BF65 /* ActivitiesModel.swift in Sources */,
 				7C577C712A34D68200F8BF65 /* HabitTrackingApp.swift in Sources */,
+				7C577C832A34EEA900F8BF65 /* AddActivityView.swift in Sources */,
+				7C577C852A34F33800F8BF65 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
